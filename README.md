@@ -36,10 +36,10 @@ Example of a file with correct syntax:
 
 
 ### Problems which can be solved by this algorithm ###
-[ X ] maximum flow problem
-[ X ] minimum cut problem
-[ X ] transshipment problem
-[ X ] assignment problem
+- [X] maximum flow problem
+- [X] minimum cut problem
+- [X] transshipment problem
+- [X] assignment problem
 
 
 ### Use of the algorithm ###
@@ -57,11 +57,52 @@ Są szybsze algorytmy opartę o metodę Ford: algorytm Dinica oraz Malhotry, Kum
 
  PL: :arrow_heading_down:
  
+ Program zamieszczony w repozytorium powstał jako projekt zaliczeniowy na zajęcia z teorii grafów. Celem projektu było zaimplementowanie algorytmu Edmondsa-Karpa jako implementacji metody Forda-Fulkersona, liczącej maksymalny przepływ w sieci przepływowej.
+
+## Jak to działa ##
+
+Program czyta dane z podanego pliku i wylicza maksymalny przepływ od źródła do ujścia, działa on jednak poprawnie tylko jeśli dostarczony plik spełnia poniższe wymagania:
+
+### 1. Właściwa lokalizacja ###
+Aby umożliwić programowi czytanie z pliku .txt, taki plik powinien znajdować się w folderze `cmake-build-debug` w plikach projektu (tam gdzie umieszczone są już 3 pliki testowe).
+
+
+![logo](https://github.com/PaulinaGacek/GraphTheoryProject/blob/main/File_localization.png "Proper file localization")
+
+
+### 2. Poprawna składnia ###
+
+Dostarczony plik powinien być sformatowany w następujący sposób:
+
+`n` - *liczba węzłów (int)*
+
+`m` - *liczba krawędzi (int)*
+
+`s` - *węzeł będący źródłem (int)*
+
+`t` - *węzeł będący ujściem (int)*
+
+*m lini reprezentujących krawędzie:*
+`a b c`
+
+*gdzie a - początkowy węzeł, b - węzeł końcowy, c - przepustowość*
+
+
+Example of a file with correct syntax:
+
+![logo](https://github.com/PaulinaGacek/GraphTheoryProject/blob/main/File_syntax_.png "Correct file syntax")
+#### Znaki nowej lini nie wpływają na poprawność składni, gdyż program czyta plik znak po zanku a nie linia po linii. Ważne jest jednak aby numery symbolizujące osobne zmienne były oddzielone białym znakiem. ####
+ 
  ### Problemy rozwiązywane przez algorytm: ###
  - [X] problem maksymalnego przepływu
- - [ X ] problem minimalnego cięcia
- [ X ] problem transportowy
- [ X ] problem przyporządkowania
+ - [X] problem minimalnego cięcia
+ - [X] problem transportowy
+ - [X] problem przyporządkowania
  
  ### Zastosowania algorytmu ###
  Algorytm Forda-Fulkersona jest szeroko używany do rozwiązywania problemów przydziału, więc może być on używany w implementacjach wielu solverów. Dodatkowo jest on wykorzystywany w rozwiązywaniu problemów związanych z sieciami przepływowymi - w telekomunikacji, transporcie i np. rutingu do optymalizacji wydajności sieci. Co więcej ten model obliczeniowy w dalszym ciągu jest stosowany w planowaniu harmonogramu lotów, znajdowania maksymalnych skojarzeń w grafach dwudzielnych oraz podczas segmentacji obrazów.
+ 
+ ### *Bibliografia:* ###
+
+1. *Agata SURÓWKA "ALGORYTM FORDA – FULKERSONA I JEGO ZNACZENIE W ROZWIĄZYWANIU PROBLEMÓW TRANSPORTOWYCH"*
+2. *Sabhya Chhabria "Real-World Network Flow — “Cricket Elimination Problem” "*
