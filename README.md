@@ -7,7 +7,7 @@ The programme reads data from given file and calculates maximum flow from source
 ### 1. Proper file localization ###
 To enable programme to read data from file the .txt file should be located in cmake-build-debug folder, where other test files are located.
 
-![alt text][logo]
+
 ![logo](https://github.com/PaulinaGacek/GraphTheoryProject/blob/main/File_localization.png "Logo Title Text 1")
 
 
