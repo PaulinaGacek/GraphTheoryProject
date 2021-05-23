@@ -52,8 +52,9 @@ Moreover this model of computation still has applications throughout the spectru
 2. *Sabhya Chhabria "Real-World Network Flow — “Cricket Elimination Problem” "*
 
 
-Przeanalizuj powyższy algorytm: jakie problemy rozwiązuje, konkretne przykłady wykorzystania, z jakich metod korzysta się obecnie do rozwiązywania tych problemów (4pkt)
-Są szybsze algorytmy opartę o metodę Ford: algorytm Dinica oraz Malhotry, Kumara i Maheshwariego.
+
+
+
 
  PL: :arrow_heading_down:
  
@@ -106,3 +107,6 @@ Example of a file with correct syntax:
 
 1. *Agata SURÓWKA "ALGORYTM FORDA – FULKERSONA I JEGO ZNACZENIE W ROZWIĄZYWANIU PROBLEMÓW TRANSPORTOWYCH"*
 2. *Sabhya Chhabria "Real-World Network Flow — “Cricket Elimination Problem” "*
+
+
+**Paulina Gacek May 2021**
