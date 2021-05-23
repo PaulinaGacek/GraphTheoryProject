@@ -32,5 +32,5 @@ Example of a file with correct syntax:
 
 ![logo](https://github.com/PaulinaGacek/GraphTheoryProject/blob/main/File_syntax.png "Correct file syntax")
 
-
+###### New line signs do not play any role in the correctness of syntax, because file is read sign-by-sign and not line-by-line. What really matters is that different numbers have to be separated by white sign. ######
 
