@@ -58,7 +58,7 @@ Są szybsze algorytmy opartę o metodę Ford: algorytm Dinica oraz Malhotry, Kum
  PL: :arrow_heading_down:
  
  ### Problemy rozwiązywane przez algorytm: ###
- - [ X ] problem maksymalnego przepływu
+ - [X] problem maksymalnego przepływu
  - [ X ] problem minimalnego cięcia
  [ X ] problem transportowy
  [ X ] problem przyporządkowania
