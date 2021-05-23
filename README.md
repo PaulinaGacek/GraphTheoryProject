@@ -15,22 +15,23 @@ To enable programme to read data from file the .txt file should be located in cm
 
 File from which programme can correctly read data should be organised this way:
 
-`n` - number of vertices (int)
+`n` - *number of vertices (int)*
 
-`m` - number of edges (int)
+`m` -* number of edges (int)*
 
-`s` - source wertex (int)
+`s` -* source wertex (int)*
 
-`t` - sink vertex (int)
+`t` - *sink vertex (int)*
 
-m lines which represents egdes in the format:
+*m lines which represents egdes in the format:*
 `a b c`
 
-where a - starting vertex, b - ending vertex, c - capacity
+*where a - starting vertex, b - ending vertex, c - capacity*
+
 
 Example of a file with correct syntax:
 
 ![logo](https://github.com/PaulinaGacek/GraphTheoryProject/blob/main/File_syntax_.png "Correct file syntax")
-###### New line signs do not play any role in the correctness of syntax, because file is read sign-by-sign and not line-by-line. What really matters is that different numbers have to be separated by white sign. ######
+##### New line signs do not play any role in the correctness of syntax, because file is read sign-by-sign and not line-by-line. What really matters is that different numbers have to be separated by white sign. #####
 
  
