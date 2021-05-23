@@ -12,3 +12,13 @@ To enable programme to read data from file the .txt file should be located in cm
 
 
 ### 2. Correct syntax ###
+File from which programme can correctly read data should be organised this way:
+`n` - number of vertices (int)
+`m` - number of edges (int)
+`s` - source wertex (int)
+`t` - sink vertex (int)
+m lines which represents egdes in the format:
+`a b c`
+where a - starting vertex, b - ending vertex, c - capacity
+Example of a file with correct syntax:
+
