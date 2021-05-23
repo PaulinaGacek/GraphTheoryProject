@@ -30,7 +30,7 @@ where a - starting vertex, b - ending vertex, c - capacity
 
 Example of a file with correct syntax:
 
-![logo](https://github.com/PaulinaGacek/GraphTheoryProject/blob/main/File_syntax.png"Correct file syntax")
+![logo](https://github.com/PaulinaGacek/GraphTheoryProject/blob/main/File_syntax.png "Correct file syntax")
 
 
 
